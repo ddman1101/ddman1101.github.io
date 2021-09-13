@@ -18,9 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Here's Jerry
-email: ddman821101@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
+title       : Here's Jerry
+name        : Jerry Hsu
+email       : ddman821101@gmail.com
+description : >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
@@ -59,3 +60,44 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+social:
+  type:  # Person or Organization (defaults to Person)
+
+  name:  # If the user or organization name differs from the site's name
+
+  links:
+    - "https://www.linkedin.com/in/wei-han-hsu-4801a7109"
+
+author:
+  name             : "Jerry Hsu"
+  avatar           : 
+  bio              :
+  location         : "Taiwan"
+  employer         :
+  googlescholar    : 
+  email            : "ddman821101@gmail.com"
+  uri              : 
+  bitbucket        :
+  codepen          :
+  dribbble         :
+  flickr           :
+  facebook         :
+  foursquare       :
+  github           : "ddman1101"
+  google_plus      :
+  keybase          :
+  instagram        :
+  lastfm           :
+  linkedin         : "wei-han-hsu-4801a7109"
+  orcid            : 
+  pinterest        :
+  soundcloud       :
+  stackoverflow    :
+  steam            :
+  tumblr           :
+  twitter          : 
+  vine             :
+  weibo            :
+  xing             :
+  youtube          :
+  wikipedia        :

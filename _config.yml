@@ -30,12 +30,12 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-# theme: minima
-# theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes"
+theme: minima
+theme: minimal-mistakes-jekyll
+# theme: jekyll-theme-minimal
+# remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
-  # - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.

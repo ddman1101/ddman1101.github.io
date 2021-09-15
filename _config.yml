@@ -70,7 +70,7 @@ social:
 
 author:
   name             : "Jerry Hsu"
-  avatar           : 
+  avatar           : "files/FED9C0AB-D12A-4016-BCC9-8DE59B107D8D.JPG"
   bio              :
   location         : "Taiwan"
   employer         :
@@ -101,3 +101,10 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

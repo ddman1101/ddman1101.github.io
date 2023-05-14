@@ -4,4 +4,4 @@ title: Portfolio
 permalink: /works/
 ---
 
-I'll pu all my work here
+I'll put all my works here

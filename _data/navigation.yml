@@ -1,8 +1,8 @@
 # main links
 main:
       - title: "Paragraph"
-        url: /year-archive/
-      - title: "Portofolio"
+        url: /paragraph/
+      - title: "Portfolio"
         url: /works/
       - title: "About Jerry"
         url: /about/

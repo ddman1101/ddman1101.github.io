@@ -1,7 +1,5 @@
 # main links
 main:
-      - title: "Paragraph"
-        url: /Paragraph/
       - title: "Portfolio"
         url: /Portfolio/
       - title: "About Jerry"

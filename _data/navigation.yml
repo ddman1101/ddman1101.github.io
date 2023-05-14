@@ -3,6 +3,6 @@ main:
       - title: "Paragraph"
         url: /paragraph/
       - title: "Portfolio"
-        url: /works/
+        url: /Portfolio/
       - title: "About Jerry"
         url: /about/

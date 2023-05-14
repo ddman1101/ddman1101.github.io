@@ -1,1 +1,6 @@
-I'm Jerry Hsu, I am still learning how to use it.
+---
+layout: post
+title:  "To record first post"
+---
+
+# Hello world

@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Portfolio
-permalink: /works/
+permalink: /Portfolio/
 ---
 
 ## I'll put all my works here

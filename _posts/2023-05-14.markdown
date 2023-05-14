@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "To record first post"
+title:  "To record my first post"
 ---
 
 # Hello world

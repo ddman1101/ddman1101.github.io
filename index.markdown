@@ -16,14 +16,14 @@ I'm a Machine Learning Eningeer in CloudMile Inc. I am interesting in Music and 
 
 ## I am learning :
 * NLP
-  * LLM (Prompt-Engineering & LoRA)
+  * LLM (Prompt-Engineering & LoRA), XXX-GPT (Many differents GPTs)
   * Word2Vec
   * Text Computation
 * ML/DL
-  * Generative Ai (VAE, GAN, RL)
+  * Generative AI (VAE, GAN, RL)
 
 ## Leetcode :
-![Leetcode Recording]https://github.com/ddman1101/ddman-Leetcode-recording
+[Leetcode Recording]https://github.com/ddman1101/ddman-Leetcode-recording
 
 ## Sports :
 * Basketball 

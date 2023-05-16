@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Artical
 permalink: /artical/
 author_profile: True

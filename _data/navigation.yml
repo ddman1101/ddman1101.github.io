@@ -2,3 +2,7 @@
 main:
       - title: "Portfolio"
         url: /Portfolio/
+      - title: "Experiments"
+        url: /experiments/
+      - title: "Artical"
+        url: /artical/

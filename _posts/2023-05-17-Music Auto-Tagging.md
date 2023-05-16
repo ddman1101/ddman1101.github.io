@@ -1,6 +1,10 @@
 ---
-layout: home
-title:  "Some insights from me about music auto-tagging & AIDJ"
+layout: post
+title:  "AIDJ related insights between AI & DJ"
+date:   2023-05-17 02:41
+categories: Insights
+author: Jerry Hsu
+
 ---
 
 # Some insights from me about music auto-tagging & AIDJ

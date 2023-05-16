@@ -14,6 +14,17 @@ I'm a Machine Learning Eningeer in CloudMile Inc. I am interesting in Music and 
   * AIDJ system & music recommendation system 
 * Machine Learning & Deep Learning
 
+## I am learning :
+* NLP
+  * LLM (Prompt-Engineering & LoRA)
+  * Word2Vec
+  * Text Computation
+* ML/DL
+  * Generative Ai (VAE, GAN, RL)
+
+## Leetcode :
+![Leetcode Recording]https://github.com/ddman1101/ddman-Leetcode-recording
+
 ## Sports :
 * Basketball 
   * Got once final MVP in the amateur game

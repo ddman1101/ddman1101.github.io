@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I'm a Machine Learning Eningeer in CloudMile Inc. I am interesting in Music and AI field, and also interest in ML & DL. If anyone love Music & AI field. Please feel free to contact me :smiley:
+I'm a Machine Learning Eningeer in CloudMile Inc. I am interesting in Music and AI field, and also interest in ML & DL. If anyone love Music & AI field. Please feel free to contact me 😃
 
 ## Interest fields :
 * Music and AI (AIDJ-related)

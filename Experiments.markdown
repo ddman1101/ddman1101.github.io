@@ -1,8 +1,9 @@
 ---
 layout: single
 title: Experiments
-permalink: /experiments/
 author_profile: True
+permalink: /experiments/
+
 ---
 
 ## Experiments

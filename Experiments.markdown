@@ -1,9 +1,8 @@
 ---
 layout: single
 title: Experiments
-author_profile: True
 permalink: /experiments/
-
+author_profile: true
 ---
 
 ## Experiments

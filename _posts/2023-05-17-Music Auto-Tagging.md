@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: home
 title:  "Some insights from me about music auto-tagging & AIDJ"
 ---
 

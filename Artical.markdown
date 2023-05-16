@@ -1,7 +1,7 @@
 ---
 layout: single
-title: About
-permalink: /about/
+title: Artical
+permalink: /artical/
 author_profile: True
 ---
 

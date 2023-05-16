@@ -23,7 +23,7 @@ I'm a Machine Learning Eningeer in CloudMile Inc. I am interesting in Music and 
   * Generative AI (VAE, GAN, RL)
 
 ## Leetcode :
-![My Leetcode Recording](https://github.com/ddman1101/ddman-Leetcode-recording)
+https://github.com/ddman1101/ddman-Leetcode-recording
 
 ## Sports :
 * Basketball 

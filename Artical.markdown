@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: home
 title: About
 author_profile: True
 ---

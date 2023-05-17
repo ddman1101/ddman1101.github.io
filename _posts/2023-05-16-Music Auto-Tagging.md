@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AIDJ related insights between AI & DJ"
-date:   2023-05-17 02:41
+date:   2023-05-16 02:41
 categories: Insights
 author: Jerry Hsu
 

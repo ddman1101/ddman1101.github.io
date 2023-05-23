@@ -7,6 +7,11 @@ author: Jerry Hsu
 
 ---
 
+---
+layout: post
+
+---
+
 # Some insights from me about music auto-tagging & AIDJ
 
 ## Comimg soon

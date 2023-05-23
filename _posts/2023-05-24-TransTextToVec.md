@@ -31,16 +31,28 @@ In modern, there are lots of differents models to deal with the serveral problem
 Most of the above tasks is built by deep learning model. Once we need an input for the model or computation, we should let the text data transferred into vector. There's several differents methods to transfer it. Let me introduce the pros and cons between the following methods.
 
 ### 1. Word counts
-Pros : Easy to calculate ! Even my grandmother can do it !
+Pros : Easy to calculate.
 Cons : It lose a lot of information such as the position and the data importance between the sentence or artical.
 
 ### 2. One-Hot encoding
-Pros : Simple methods.
+Pros : It's a simple methods.
 Cons : Lose the relationship between the text meaning.
 
 ### 3. TF-IDF
 Pros : Consider the data importance between the artical or sentence if you know how to calculate the IDF.
 Cons : Lose the position information.
 
-3. 
+### 4. Word2Vec
+Pros : It can catch the meaning between the text to another text. For example : $V_{King} - V_{man} + V_{woman} = V_{Queen}$
+Cons : It need to be trained and based on a big dataset.
+
+### 5. BERT embedding
+Pros : The vector consider the meaning or relationship between front context and back context.
+Cons : Need to be trained.
+
+In this artical, I will introduce the <span style="color:Gold">TF-IDF</span> and <span style="color:Gold">Word2Vec</span>.
+
+## TF-IDF
+
+The algorithm consider not only the frequency in the sentence (artical) but also the text appear in every sentences (articals) in the whole dataset.
 

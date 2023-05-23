@@ -7,7 +7,7 @@ author: Jerry Hsu
 author_profile : true
 ---
 
-Recently, I am learning a little bit knowlegde about NLP-related field. Such as <span style="color:blue">Word2Vec, TF-IDF, BERT, GRU</span> or <span style="color:blue">LLM</span> etc. I think if I can record what I learn by the blog. I can learn better than that I just read the book. In this artical, it will be divided into several parts :
+Recently, I am learning a little bit knowlegde about NLP-related field. Such as <span style="color:Gold">Word2Vec, TF-IDF, BERT, GRU</span> or <span style="color:Gold">LLM</span> etc. I think if I can record what I learn by the blog. I can learn better than that I just read the book. In this artical, it will be divided into several parts :
 
 * About my thoughts in transfer the text to vector.
 * TF-IDF

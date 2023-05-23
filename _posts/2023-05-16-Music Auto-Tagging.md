@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Transfer the text data to vector"
-date:   2023-05-16 02:41
+date:   2023-05-24 01:04
 categories: Insights
 author: Jerry Hsu
 author_profile : true

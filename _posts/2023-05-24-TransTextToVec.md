@@ -24,3 +24,11 @@ Recently, I am learning a little bit knowlegde about NLP-related field. Such as 
 
 In modern, there are lots of differents models to deal with the serveral problems (Before the ChatGPT). For example : 
 
+* Summary Task
+* Recommendation System (Content-based)
+* Classfication task
+* Translation Task
+* Generative AI
+
+Most of the above tasks is built by deep learning model. Once we need an input for the model or computation, we should let the text data transferred into vector.
+

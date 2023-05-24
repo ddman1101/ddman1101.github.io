@@ -109,6 +109,7 @@ pd.DataFrame(X.toarray(), columns = [vectorizer.get_feature_names_out()])
 ```
 
 And the results will be like :
+![TF-IDF-example-pic](example.png)
 
 
 

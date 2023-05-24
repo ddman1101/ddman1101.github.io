@@ -4,7 +4,7 @@ title: About
 author_profile: True
 ---
 
-I'm a Machine Learning Eningeer in CloudMile Inc. I am interesting in Music and AI field, and also interest in ML & DL. If anyone love Music & AI field. Please feel free to contact me 😃
+I'm a Machine Learning Eningeer in CloudMile Inc. I am interesting in Music and AI field, and also interest in ML & DL. If anyone love Music & AI or ML/DL fields. Please feel free to contact me 😃
 
 ## Interest fields :
 * Music and AI (AIDJ-related)
@@ -13,6 +13,9 @@ I'm a Machine Learning Eningeer in CloudMile Inc. I am interesting in Music and 
   * Music Structure analysis
   * AIDJ system & music recommendation system 
 * Machine Learning & Deep Learning
+  * Music
+  * CV
+  * NLP 
 
 ## I am learning :
 * NLP

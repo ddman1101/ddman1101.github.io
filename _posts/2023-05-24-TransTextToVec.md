@@ -72,4 +72,43 @@ We can calculate the TF-IDF from the dataset. First of all, we cut the sample in
 1. ["This", "is", "an", "apple", "and", "it", "is", "really", "delicious", "."]
 2. ["These", "apples", "are", "delicious", "."]
 
+Then we calculate each TF-IDF scores in both 2 documents. The word "delicious" TF-IDF score is :
+
+* TF : $$tf = \frac{1}{10}$$
+* IDF : $$\log\frac{2}{2} = 0$$
+* TF-IDF = TF * IDF = 0
+
+Then we can calculate the word "delicious" TF-IDF score is 0. It also means delicious do not bring any important information for us in the dataset.
+
+Also, we can calculate the word "is" :
+
+* TF : $$tf = \frac{2}{10}$$
+* IDF : $$\log\frac{2}{1} = 0.301$$
+* TF-IDF = TF * IDF = 0.2 * 0.301 = 0.0602
+
+Then we can get the array from the python code :
+
+"""
+from sklearn.feature_extraction.text import TfidfVectorizer
+import pandas as pd
+
+# Define a list of documents
+documents = [
+    'This is an apple and it is really delicious.',
+    'These apples are delicious.'
+]
+
+# Initialize the TfidfVectorizer
+vectorizer = TfidfVectorizer()
+
+# Use fit_transform to fit the documents
+X = vectorizer.fit_transform(documents)
+
+# Present the tf-idf array by pandas package
+pd.DataFrame(X.toarray(), columns = [vectorizer.get_feature_names_out()])
+"""
+
+And the results will be like :
+
+
 

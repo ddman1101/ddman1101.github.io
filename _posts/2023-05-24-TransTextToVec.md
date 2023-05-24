@@ -43,7 +43,7 @@ Most of the above tasks is built by deep learning model. Once we need an input f
 * Cons : Lose the position information.
 
 ### 4. Word2Vec
-* Pros : It can catch the meaning between the text to another text. For example : $V_{King} - V_{man} + V_{woman} = V_{Queen}$
+* Pros : It can catch the meaning between the text to another text. For example : $$V_{King} - V_{man} + V_{woman} = V_{Queen}$$
 * Cons : It need to be trained and based on a big dataset.
 
 ### 5. BERT embedding
@@ -59,7 +59,7 @@ The algorithm consider not only the frequency in the sentence (artical) but also
 ***Formula*** :
 * TF * IDF : $$\mathrm{tf{}idf_{i,j}} = \mathrm{tf_{i,j}} \times  \mathrm{idf_{i}}$$
 * TF : $$\mathrm{tf_{i,j}} = \frac{n_{i,j}}{\sum_k * n_{k,j}}$$
-* IDF : $$\mathrm{idf_{i}} = \log \frac{|D|}{|\{j: t_{i} \in d_{j}\}|}$$
+* IDF : $$\mathrm{idf_{i}} = \log\frac{|D|}{|\{j: t_{i} \in d_{j}\}|}$$
 
 
 Which $$i$$ is represent the the number of the text in the sentences or artical. $$j$$ represent the number of the sentences in the whole dataset. For all $$K \in \mathbb{N^+}$$, $$K$$ represent the appear frequency in the sentences. $$|D|$$ represent the total sentences or artical number. $$|\{j: t_{i} \in d_{j}\}|$$ means the counts that text appear in the documents (Sentences or articcal)

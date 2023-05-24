@@ -56,7 +56,7 @@ In this artical, I will introduce the <span style="color:Gold">TF-IDF</span> and
 
 The algorithm consider not only the frequency in the sentence (artical) but also the text appear in every sentences (articals) in the whole dataset. The front part is TF, behind it is TF-IDF.
 
-### Formula : 
+***Formula*** :
 * TF * IDF : $$\mathrm{tf{}idf_{i,j}} = \mathrm{tf_{i,j}} \times  \mathrm{idf_{i}}$$
 * TF : $$\mathrm{tf_{i,j}} = \frac{n_{i,j}}{\sum_k * n_{k,j}}$$
 * IDF : $$\mathrm{idf_{i}} =  \log \frac{|D|}{|\{j: t_{i} \in d_{j}\}|}$$

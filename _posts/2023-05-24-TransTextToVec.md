@@ -88,7 +88,7 @@ Also, we can calculate the word "is" :
 
 Then we can get the array from the python code :
 
-"""
+```
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 
@@ -106,7 +106,7 @@ X = vectorizer.fit_transform(documents)
 
 # Present the tf-idf array by pandas package
 pd.DataFrame(X.toarray(), columns = [vectorizer.get_feature_names_out()])
-"""
+```
 
 And the results will be like :
 

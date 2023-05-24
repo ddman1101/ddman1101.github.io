@@ -59,7 +59,7 @@ The algorithm consider not only the frequency in the sentence (artical) but also
 ### TF-IDF Formula :
 * TF-IDF : $$tfidf_{i,j} = \mathrm{tf_{i,j}} \times \mathrm{idf_{i}}$$
 * TF  : $$tf_{i,j} = \frac{n_{i,j}}{\sum_k n_{k,j}}$$
-* IDF : $$idf_{i} = Log\frac{|D|}}{|{j: t_{i} \in d_{j}}|}$$
+* IDF : $$idf_{i} = \Log\frac{|D|}}{|{j: t_{i} \in d_{j}\}|}$$
 
 ***Which $$i$$ is represent the the number of the text in the sentences or artical. $$j$$ represent the number of the sentences in the whole dataset. For all $$K \in \mathbb{N^+}$$, $$K$$ represent the appear frequency in the sentences. $$|D|$$ represent the total sentences or artical number. $$|\{j:t_{i} \in d_{j}\}|$$ means the counts that text appear in the documents (Sentences or articcal)***
 

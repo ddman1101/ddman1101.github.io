@@ -57,11 +57,19 @@ In this artical, I will introduce the <span style="color:Gold">TF-IDF</span> and
 The algorithm consider not only the frequency in the sentence (artical) but also the text appear in every sentences (articals) in the whole dataset. The front part is TF, behind it is TF-IDF.
 
 ### Formula : 
-* TF * IDF = $\mathrm{tf{}-idf_{i,j}} = \mathrm{tf_{i,j}} \times  \mathrm{idf_{i}}$
+* TF * IDF = $\mathrm{tf{}idf_{i,j}} = \mathrm{tf_{i,j}} \times  \mathrm{idf_{i}}$
 * TF : $\mathrm{tf_{i,j}} = \frac{n_{i,j}}{\sum_k * n_{k,j}}$
 * IDF : $\mathrm{idf_{i}} =  \log \frac{|D|}{|\{j: t_{i} \in d_{j}\}|}$
 
-Which i is represent the the number of the text in the sentences or artical. "j" represent the number of the sentences in the whole dataset. For all $K \in \mathbb{N^+}$
+Which $i$ is represent the the number of the text in the sentences or artical. $j$ represent the number of the sentences in the whole dataset. For all $K \in \mathbb{N^+}$, $K$ represent the appear frequency in the sentences. $|D|$ represent the total sentences or artical number. $|\{j: t_{i} \in d_{j}\}|$ means the counts that text appear in the documents (Sentences or articcal)
 
+For example, There are 2 sample in the dataset :
+1. This is an apple and it is really delicious.
+2. These apples are delicious.
+
+We can calculate the TF-IDF from the dataset. First of all, we cut the sample into many token (word-level). And it could be like :
+
+1. ["This", "is", "an", "apple", "and", "it", "is", "really", "delicious", "."]
+2. ["These", "apples", "are", "delicious", "."]
 
 

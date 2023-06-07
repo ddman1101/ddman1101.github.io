@@ -108,8 +108,13 @@ X = vectorizer.fit_transform(documents)
 pd.DataFrame(X.toarray(), columns = [vectorizer.get_feature_names_out()])
 ```
 
-And the results will be like :
-![TF-IDF-example-pic](example.png)
+But, TF-IDF can't get the relationship between the text. Due to the reason, we will introduce the Word2Vec continuously.
+
+## Word2Vec
+
+
+
+
 
 
 

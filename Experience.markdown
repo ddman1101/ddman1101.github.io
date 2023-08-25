@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Experiments
-permalink: /experiments/
+title: Experience
+permalink: /experience/
 author_profile: true
 ---
 

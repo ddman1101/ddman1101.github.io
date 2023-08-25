@@ -5,6 +5,9 @@ permalink: /experience/
 author_profile: true
 ---
 
-## Experiments
+## Experience
 - Academia Sinica
+  - Deep learning on Electronic Dance Music Classification
 - CloudMile Inc.
+  - PLTV project
+  - LLM project

@@ -35,10 +35,12 @@
       for (let k = 0; k < n; k++) {
         const y = h - (k + 1) * (seg + segGap);
         const hot = y < h * 0.3;
-        ctx.fillStyle = hot ? "#ff3b1f" : "rgba(239,233,223," + (0.25 + 0.55 * (k / (h / (seg + segGap)))) + ")";
+        ctx.shadowColor = hot ? "#ff2bd6" : "#19e3ff"; ctx.shadowBlur = hot ? 10 : 6;
+        const f = k / (h / (seg + segGap));            // 0 bottom .. 1 top
+        ctx.fillStyle = hot ? "#ff2bd6" : f > 0.4 ? "rgba(124,77,255,0.85)" : "rgba(25,227,255," + (0.45 + f) + ")";
         ctx.fillRect(x, y, bw, seg);
       }
-      ctx.fillStyle = "#ff3b1f";
+      ctx.fillStyle = "#f3effc";
       ctx.fillRect(x, h - peak[i] * h - 2, bw, 2);
     }
     if (!still) requestAnimationFrame(draw);

@@ -151,6 +151,13 @@ h2 {
 .also p { margin: 0; font-size: 0.95rem; color: var(--dim); max-width: 50rem; }
 .also p b { color: var(--bone); font-weight: 400; }
 .also .slot { color: var(--dim); padding-top: 0.2rem; }
+.fig { margin: 1.8rem 0 0 !important; }
+.fig img { display: block; width: 100%; height: auto; }
+.fig.wide { max-width: 60rem; }
+.fig.tall { max-width: 22rem; }
+.fig a { display: block; border: 1px solid var(--line); padding: 1rem; background: rgba(18, 15, 43, 0.55); transition: border-color 0.3s, box-shadow 0.3s; }
+.fig a:hover { border-color: var(--cyan); box-shadow: 0 0 24px rgba(25, 227, 255, 0.18); }
+.fig figcaption { font: 900 0.8rem/1 var(--dot); letter-spacing: 0.1em; text-transform: uppercase; color: var(--dim); margin-top: 0.7rem; }
 .about .cols { columns: 2 22rem; column-gap: 3rem; max-width: 70rem; }
 .about p { margin: 0 0 1.2rem; break-inside: avoid; }
 .after p { max-width: 42rem; margin: 0; }

@@ -141,6 +141,10 @@ h2 {
 }
 .links a:hover { border-color: var(--cyan); color: var(--cyan); box-shadow: 0 0 12px rgba(25, 227, 255, 0.35); }
 
+.also { border-top: 1px solid var(--line); padding: 1.6rem 0 0; display: grid; grid-template-columns: 12rem 1fr; column-gap: 2rem; }
+.also p { margin: 0; font-size: 0.95rem; color: var(--dim); max-width: 50rem; }
+.also p b { color: var(--bone); font-weight: 400; }
+.also .slot { color: var(--dim); padding-top: 0.2rem; }
 .about .cols { columns: 2 22rem; column-gap: 3rem; max-width: 70rem; }
 .about p { margin: 0 0 1.2rem; break-inside: avoid; }
 .after p { max-width: 42rem; margin: 0; }
@@ -161,6 +165,8 @@ h2 {
   .act { grid-template-columns: 1fr; }
   .act > *, .act .slot { grid-column: 1; grid-row: auto; }
   .act .slot { padding: 0 0 0.6rem; }
+  .also { grid-template-columns: 1fr; }
+  .also .slot { padding-bottom: 0.5rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {

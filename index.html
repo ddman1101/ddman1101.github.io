@@ -4,92 +4,104 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wei-Han (Jerry) Hsu</title>
-<meta name="description" content="Wei-Han (Jerry) Hsu, PhD student at National Taiwan University and Academia Sinica. Research on DJ transitions, music generation and drum transcription.">
+<meta name="description" content="Wei-Han (Jerry) Hsu, PhD student at National Taiwan University and Academia Sinica. Machine learning for music: DJ systems, music generation, drum transcription.">
+<meta name="theme-color" content="#0b0a09">
 <meta property="og:title" content="Wei-Han (Jerry) Hsu">
-<meta property="og:description" content="PhD student at NTU and Academia Sinica. AI for DJing.">
+<meta property="og:description" content="PhD student at NTU and Academia Sinica. Machine learning for music.">
 <meta property="og:image" content="https://ddman1101.github.io/images/portrait.jpg">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%231d1b17'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23d2461e'/%3E%3Ccircle cx='16' cy='16' r='1.3' fill='%23f3efe6'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='15' fill='%230b0a09' stroke='%23ff3b1f' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23ff3b1f'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Archivo:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="page">
+<div class="light" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
 
-  <aside class="side">
-    <img class="portrait" src="images/portrait.jpg" alt="Wei-Han Hsu standing under the Taipei–Yilan county sign in a tunnel" width="720" height="1126">
-    <h1>Wei-Han Hsu</h1>
-    <p class="aka">goes by Jerry</p>
-    <p class="role">PhD student<br>National Taiwan University<br>&amp; Academia Sinica</p>
-    <ul class="links">
-      <li><a href="mailto:ddman821101@gmail.com">ddman821101@gmail.com</a></li>
-      <li><a href="https://github.com/ddman1101">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/jerry-hsu-4801a7109/">LinkedIn</a></li>
-      <li><a href="https://soundcloud.com/ljpn7spx6frg">SoundCloud</a></li>
-    </ul>
-  </aside>
+<header class="bar">
+  <span>DDMAN1101 / TAIPEI</span>
+  <nav><a href="#lineup">Lineup</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+</header>
 
-  <main>
-    <section class="intro">
-      <p class="lede">I work on AI for DJing: which song comes next, where it comes in, and how to get from one track to the other without anyone on the dance floor noticing the seam.</p>
-      <p>I'm a PhD student in the Data Science Degree Program at National Taiwan University and Academia Sinica, working with <a href="https://www.iis.sinica.edu.tw/pages/lisu/">Li Su</a> and <a href="https://affige.github.io/">Yi-Hsuan Yang</a>.</p>
-      <p>Most of what I build is for pop, where the vocals make everything harder. Two EDM tracks can overlap for a minute; two pop songs usually can't overlap for more than a few bars before the singers start singing over each other. So a lot of my work is about timing: finding the few places in a song where a mix can actually happen, and checking afterwards that it did. I've also spent time on drum transcription and source separation with latent diffusion.</p>
-      <p>Before the PhD I worked on electronic dance music classification at Academia Sinica, and as a machine learning engineer at CloudMile, on customer lifetime value models and LLM projects.</p>
-    </section>
+<section class="hero">
+  <div class="hero-type">
+    <p class="kicker">PhD student &middot; NTU &times; Academia Sinica</p>
+    <h1><span>Wei-Han</span><span>Hsu</span></h1>
+    <p class="aka">aka Jerry</p>
+    <p class="tag">Machine learning for music: DJ systems, music generation, drum transcription.</p>
+  </div>
+  <figure class="hero-photo">
+    <img src="images/portrait.jpg" alt="Wei-Han Hsu under the Taipei–Yilan county sign in a tunnel" width="720" height="1126">
+  </figure>
+</section>
 
-    <section>
-      <h2>News</h2>
-      <dl class="news">
-        <dt>Sep 2026</dt><dd>Code for DJustify is public on <a href="https://github.com/ddman1101/DJustify">GitHub</a>.</dd>
-        <dt>Jul 2026</dt><dd>Separate-and-Detect was accepted to ISMIR 2026.</dd>
-      </dl>
-    </section>
-
-    <section>
-      <h2>Papers</h2>
-      <ol class="tracks">
-        <li>
-          <span class="no">01</span>
-          <div>
-            <p class="title">DJustify: Reason-and-Verify DJ Planning for Pop Transitions and Story-Driven Sets</p>
-            <p class="authors"><b>Wei-Han Hsu</b>*, Li-Jie Lin*, Po-Hsuan Lai, Po-Hsiang Huang, Jeng-Yue Liu, Li Su, Yi-Hsuan Yang</p>
-            <p class="note">An LLM plans each transition; a rule-based checker measures the rendered audio and sends back what went wrong. *Equal contribution.</p>
-            <p class="refs"><a href="https://github.com/ddman1101/DJustify">code</a><a href="https://jamie930625.github.io/djustify/">demo</a></p>
-          </div>
-          <span class="venue">under review</span>
-        </li>
-        <li>
-          <span class="no">02</span>
-          <div>
-            <p class="title">Separate-and-Detect: Unified Drum Transcription and Stem Generation via Latent Diffusion</p>
-            <p class="authors"><b>Wei-Han Hsu</b>, Chih-Cheng Chang, Bo-Yu Chen, Li Su, Yi-Hsuan Yang</p>
-            <p class="note">Split a drum track into five stems with a latent diffusion model, then transcribe each stem on its own.</p>
-            <p class="refs"><a href="https://arxiv.org/abs/2608.01093">arXiv</a><a href="https://github.com/ddman1101/Separate-and-detect">code</a><a href="https://ddman1101.github.io/Separate-and-Detect-demo/">demo</a></p>
-          </div>
-          <span class="venue">ISMIR 2026</span>
-        </li>
-        <li>
-          <span class="no">03</span>
-          <div>
-            <p class="title">Automatic DJ Transitions with Differentiable Audio Effects and Generative Adversarial Networks</p>
-            <p class="authors">Bo-Yu Chen, <b>Wei-Han Hsu</b>, Wei-Hsiang Liao, Marco A. Martínez Ramírez, Yuki Mitsufuji, Yi-Hsuan Yang</p>
-            <p class="note">Learns fader and EQ curves from real DJ mixes.</p>
-            <p class="refs"><a href="https://arxiv.org/abs/2110.06525">arXiv</a><a href="https://github.com/ChenPaulYu/DJtransGAN">code</a></p>
-          </div>
-          <span class="venue">ICASSP 2022</span>
-        </li>
-      </ol>
-    </section>
-
-    <section>
-      <h2>Off the clock</h2>
-      <p>I DJ for fun. I also play a lot of basketball: school teams at NSYSU and NTPU, and a few amateur teams on weekends. Before that it was soccer, on the school team through junior high.</p>
-    </section>
-
-    <footer>Updated September 2026</footer>
-  </main>
-
+<div class="ticker" aria-label="News">
+  <div class="ticker-track">
+    <span>Sep 2026 &mdash; DJustify code is out on GitHub</span><i>&times;</i>
+    <span>Jul 2026 &mdash; Separate-and-Detect accepted to ISMIR 2026</span><i>&times;</i>
+    <span>Sep 2026 &mdash; DJustify code is out on GitHub</span><i>&times;</i>
+    <span>Jul 2026 &mdash; Separate-and-Detect accepted to ISMIR 2026</span><i>&times;</i>
+  </div>
 </div>
+
+<section class="deck" aria-hidden="true">
+  <canvas id="mix"></canvas>
+</section>
+
+<main>
+  <section id="lineup" class="lineup">
+    <h2>Lineup</h2>
+
+    <article class="act headliner">
+      <p class="slot">01 &middot; under review</p>
+      <h3><a href="https://github.com/ddman1101/DJustify">DJustify</a></h3>
+      <p class="full">Reason-and-Verify DJ Planning for Pop Transitions and Story-Driven Sets</p>
+      <p class="desc">An LLM plans each transition; a rule-based checker measures the rendered audio and sends back what went wrong.</p>
+      <p class="with"><b>Wei-Han Hsu</b>*, Li-Jie Lin*, Po-Hsuan Lai, Po-Hsiang Huang, Jeng-Yue Liu, Li Su, Yi-Hsuan Yang &nbsp;<span>*equal contribution</span></p>
+      <p class="links"><a href="https://github.com/ddman1101/DJustify">code</a><a href="https://jamie930625.github.io/djustify/">demo</a></p>
+    </article>
+
+    <article class="act">
+      <p class="slot">02 &middot; ISMIR 2026</p>
+      <h3><a href="https://arxiv.org/abs/2608.01093">Separate-and-Detect</a></h3>
+      <p class="full">Unified Drum Transcription and Stem Generation via Latent Diffusion</p>
+      <p class="desc">Split a drum kit into five stems with a latent diffusion model, then transcribe each stem on its own.</p>
+      <p class="with"><b>Wei-Han Hsu</b>, Chih-Cheng Chang, Bo-Yu Chen, Li Su, Yi-Hsuan Yang</p>
+      <p class="links"><a href="https://arxiv.org/abs/2608.01093">arXiv</a><a href="https://github.com/ddman1101/Separate-and-detect">code</a><a href="https://ddman1101.github.io/Separate-and-Detect-demo/">demo</a></p>
+    </article>
+
+    <article class="act">
+      <p class="slot">03 &middot; ICASSP 2022</p>
+      <h3><a href="https://arxiv.org/abs/2110.06525">DJtransGAN</a></h3>
+      <p class="full">Automatic DJ Transitions with Differentiable Audio Effects and Generative Adversarial Networks</p>
+      <p class="desc">Learns fader and EQ curves from real DJ mixes.</p>
+      <p class="with">Bo-Yu Chen, <b>Wei-Han Hsu</b>, Wei-Hsiang Liao, Marco A. Martínez Ramírez, Yuki Mitsufuji, Yi-Hsuan Yang</p>
+      <p class="links"><a href="https://arxiv.org/abs/2110.06525">arXiv</a><a href="https://github.com/ChenPaulYu/DJtransGAN">code</a></p>
+    </article>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <div class="cols">
+      <p>I'm a PhD student in the Data Science Degree Program at National Taiwan University and Academia Sinica, working with <a href="https://www.iis.sinica.edu.tw/pages/lisu/">Li Su</a> and <a href="https://affige.github.io/">Yi-Hsuan Yang</a>. My research is machine learning for music, on both the listening side and the making side.</p>
+      <p>Lately that has meant a lot of DJ work on pop, where the vocals make everything harder, and before that drum transcription and source separation with latent diffusion.</p>
+      <p>Before the PhD I worked on electronic dance music classification at Academia Sinica, and as a machine learning engineer at CloudMile, on customer lifetime value models and LLM projects.</p>
+    </div>
+  </section>
+
+  <section class="after">
+    <h2>After hours</h2>
+    <p>I DJ for fun. I also play a lot of basketball: school teams at NSYSU and NTPU, and a few amateur teams on weekends. Before that it was soccer, on the school team through junior high.</p>
+  </section>
+</main>
+
+<footer id="contact" class="foot">
+  <a class="mail" href="mailto:ddman821101@gmail.com">ddman821101@gmail.com</a>
+  <p class="elsewhere"><a href="https://github.com/ddman1101">GitHub</a><a href="https://www.linkedin.com/in/jerry-hsu-4801a7109/">LinkedIn</a><a href="https://soundcloud.com/ljpn7spx6frg">SoundCloud</a></p>
+  <p class="small">Updated September 2026</p>
+</footer>
+
+<script src="mix.js" defer></script>
 </body>
 </html>

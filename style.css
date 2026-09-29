@@ -151,6 +151,7 @@ h2 {
 .also p { margin: 0; font-size: 0.95rem; color: var(--dim); max-width: 50rem; }
 .also p b { color: var(--bone); font-weight: 400; }
 .also .slot { color: var(--dim); padding-top: 0.2rem; }
+.slot .role { display: block; color: var(--cyan); margin-top: 0.45rem; }
 .fig { margin: 1.8rem 0 0 !important; }
 .fig img { display: block; width: 100%; height: auto; }
 .fig.wide { max-width: 60rem; }
@@ -179,6 +180,7 @@ h2 {
   .act { grid-template-columns: 1fr; }
   .act > *, .act .slot { grid-column: 1; grid-row: auto; }
   .act .slot { padding: 0 0 0.6rem; }
+  .slot .role { display: inline; margin: 0 0 0 0.8rem; }
   .also { grid-template-columns: 1fr; }
   .also .slot { padding-bottom: 0.5rem; }
 }

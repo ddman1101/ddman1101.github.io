@@ -54,7 +54,7 @@
     <h2>Lineup</h2>
 
     <article class="act headliner">
-      <p class="slot">01 &middot; under review</p>
+      <p class="slot">01 &middot; under review<span class="role">Co-first author</span></p>
       <h3><a href="https://github.com/ddman1101/DJustify">DJustify</a></h3>
       <p class="full">Reason-and-Verify DJ Planning for Pop Transitions and Story-Driven Sets</p>
       <p class="desc">An LLM plans each transition; a rule-based checker measures the rendered audio and sends back what went wrong.</p>
@@ -64,7 +64,7 @@
     </article>
 
     <article class="act">
-      <p class="slot">02 &middot; ISMIR 2026</p>
+      <p class="slot">02 &middot; ISMIR 2026<span class="role">First author</span></p>
       <h3><a href="https://arxiv.org/abs/2608.01093">Separate-and-Detect</a></h3>
       <p class="full">Unified Drum Transcription and Stem Generation via Latent Diffusion</p>
       <p class="desc">Split a drum kit into five stems with a latent diffusion model, then transcribe each stem on its own.</p>
@@ -74,7 +74,7 @@
     </article>
 
     <article class="act">
-      <p class="slot">03 &middot; arXiv 2021</p>
+      <p class="slot">03 &middot; arXiv 2021<span class="role">First author</span></p>
       <h3><a href="https://arxiv.org/abs/2110.08862">EDM Subgenres</a></h3>
       <p class="full">Deep Learning Based EDM Subgenre Classification using Mel-Spectrogram and Tempogram Features</p>
       <p class="desc">Adds tempogram features to a music auto-tagging CNN so it can tell EDM subgenres apart.</p>
@@ -83,10 +83,15 @@
       <figure class="fig tall"><a href="https://arxiv.org/abs/2110.08862"><img src="images/fig-edm.png" alt="EDM subgenre model: a short-chunk CNN on the mel spectrogram fused with a model on Fourier and autocorrelation tempograms." loading="lazy"></a><figcaption>FIG &mdash; mel + tempogram fusion</figcaption></figure>
     </article>
 
-    <div class="also">
-      <p class="slot">Also on</p>
-      <p>Bo-Yu Chen, <b>Wei-Han Hsu</b>, Wei-Hsiang Liao, Marco A. Martínez Ramírez, Yuki Mitsufuji, Yi-Hsuan Yang. <a href="https://arxiv.org/abs/2110.06525">Automatic DJ Transitions with Differentiable Audio Effects and Generative Adversarial Networks</a>. ICASSP 2022.</p>
-    </div>
+    <article class="act">
+      <p class="slot">04 &middot; ICASSP 2022<span class="role">Second author</span></p>
+      <h3><a href="https://arxiv.org/abs/2110.06525">DJtransGAN</a></h3>
+      <p class="full">Automatic DJ Transitions with Differentiable Audio Effects and Generative Adversarial Networks</p>
+      <p class="desc">A GAN with a differentiable DJ mixer that learns fader and EQ curves from real DJ mixes. My part was the DJ side: domain knowledge and the training data.</p>
+      <p class="with">Bo-Yu Chen, <b>Wei-Han Hsu</b>, Wei-Hsiang Liao, Marco A. Martínez Ramírez, Yuki Mitsufuji, Yi-Hsuan Yang</p>
+      <p class="links"><a href="https://arxiv.org/abs/2110.06525">arXiv</a><a href="https://github.com/ChenPaulYu/DJtransGAN">code</a></p>
+      <figure class="fig wide"><a href="https://arxiv.org/abs/2110.06525"><img src="images/fig-djtransgan.png" alt="DJtransGAN: two tracks go through STFT, an encoder-context controller predicts mixer parameters, a differentiable DJ mixer blends them, and a discriminator judges the mix." loading="lazy"></a><figcaption>FIG &mdash; controller, mixer, discriminator</figcaption></figure>
+    </article>
   </section>
 
   <section id="about" class="about">
